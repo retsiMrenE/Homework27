@@ -17,7 +17,7 @@ public class Main {
     public static void read() {
         String url = "jdbc:postgresql://localhost:5432/postgres";
         String user = "postgres";
-        String password = "";
+        String password = "admin";
 
         try {
             Connection connection = DriverManager.getConnection(url, user, password);
